@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background-color: black;
+padding: 90px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      padding: 10px;
+    }
+  }
